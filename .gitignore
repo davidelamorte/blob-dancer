@@ -28,3 +28,4 @@ cypress/screenshots/*
 !cypress/screenshots/.gitkeep
 !cypress/videos/.gitkeep
 .idea/
+/dist

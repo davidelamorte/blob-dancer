@@ -24,7 +24,7 @@ fileInput.onchange = function () {
 
 const canvas = document.querySelector("canvas");
 const scene = new THREE.Scene();
-const geometry = new THREE.SphereGeometry(1.7, 55, 55);
+const geometry = new THREE.SphereGeometry(1.7, 100, 100);
 const material = new THREE.ShaderMaterial({
   uniforms: {
     time: {
